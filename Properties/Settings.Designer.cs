@@ -25,7 +25,7 @@ namespace AYAME_s_World.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("#########################")]
+        [global::System.Configuration.DefaultSettingValueAttribute("8wuIDkzkK0ICVs3YrvG5UqlQC")]
         public string API_KEY {
             get {
                 return ((string)(this["API_KEY"]));
@@ -34,28 +34,34 @@ namespace AYAME_s_World.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("##################################################")]
+        [global::System.Configuration.DefaultSettingValueAttribute("8tyqLi7X3r5zlU3BGRvB5jXU7vvIktmSNd3Rr8SjiAgY9DGYyq")]
         public string API_KEY_SECRET {
             get {
                 return ((string)(this["API_KEY_SECRET"]));
             }
         }
         
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("##################################################")]
+        [global::System.Configuration.DefaultSettingValueAttribute("20587752-739HVZEqPxeDjiX4qcRQGDYFBg1WBdq12BdH74sBv")]
         public string TOKEN_KEY {
             get {
                 return ((string)(this["TOKEN_KEY"]));
             }
+            set {
+                this["TOKEN_KEY"] = value;
+            }
         }
         
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("#############################################")]
+        [global::System.Configuration.DefaultSettingValueAttribute("bN29DRdxjODUzc9XARwEp6OWcRMgMfaZIQ0nSXZyCvBKA")]
         public string TOKEN_SECRET {
             get {
                 return ((string)(this["TOKEN_SECRET"]));
+            }
+            set {
+                this["TOKEN_SECRET"] = value;
             }
         }
     }
