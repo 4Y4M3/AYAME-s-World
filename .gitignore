@@ -9,5 +9,6 @@
 .vs/
 
 # Config
-#Settings.settings
-#Settings.Designer.cs
+Settings.settings
+Settings.Designer.cs
+App.config
